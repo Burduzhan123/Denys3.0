@@ -1,9 +1,9 @@
-const condition = 15
+const condition = 20
 
-if (condition === 9) {
-    console.log('fizz'); 
-} else if (condition === 10) {
-    console.log('Buzz');
-}else if (condition === 15){
-    console.log('FizzBuzz');
+if (condition % 3 === 0 && condition % 5 === 0){
+    console.log('FizzBazz');
+}else if (condition % 3 === 0){
+    console.log('Fizz');
+}else if (condition % 5 === 0){
+    console.log('Bazz')
 }
